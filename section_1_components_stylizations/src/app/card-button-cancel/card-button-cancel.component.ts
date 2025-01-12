@@ -5,20 +5,20 @@ import { Component } from '@angular/core';
   standalone: false,
 
   templateUrl: './card-button-cancel.component.html',
-  // styleUrl: './card-button-cancel.component.scss',
+  styleUrl: './card-button-cancel.component.scss',
   styles: [
-    `
-      .card-cancel-button {
-        font-size: 16px;
-        text-align: center;
-        margin-top: 10px;
-        border-radius: 25px;
-        background-color: red;
-        cursor: pointer;
-        font-weight: bold;
-        padding: 10px;
-      }
-    `,
+    // `
+    //   .card-cancel-button {
+    //     font-size: 16px;
+    //     text-align: center;
+    //     margin-top: 10px;
+    //     border-radius: 25px;
+    //     background-color: red;
+    //     cursor: pointer;
+    //     font-weight: bold;
+    //     padding: 10px;
+    //   }
+    // `,
   ],
 })
 export class CardButtonCancelComponent {}
